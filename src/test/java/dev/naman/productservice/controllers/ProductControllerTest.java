@@ -1,24 +1,10 @@
 package dev.naman.productservice.controllers;
 
-import dev.naman.productservice.dtos.GenericProductDto;
-import dev.naman.productservice.exceptions.NotFoundException;
-import dev.naman.productservice.services.FakeStoreProductService;
-import dev.naman.productservice.services.ProductService;
-import dev.naman.productservice.thirdpartyclients.productsservice.fakestore.FakeStoryProductServiceClient;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentCaptor;
-import org.mockito.Captor;
-import org.springframework.beans.factory.annotation.Autowired;
+//import dev.naman.productservice.thirdpartyclients.productsservice.fakestore.FakeStoryProductServiceClient;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
-import java.util.Random;
-
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
 
 @SpringBootTest
 public class ProductControllerTest {

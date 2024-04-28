@@ -1,6 +1,6 @@
 package dev.naman.productservice.dtos;
 
-import dev.naman.productservice.security.JwtObject;
+//import dev.naman.productservice.security.JwtObject;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,5 +8,5 @@ import lombok.Setter;
 @Setter
 public class Request<T> {
     T userPayload;
-    JwtObject authPayload;
+//    JwtObject authPayload;
 }
